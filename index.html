@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random photo display</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="show" onclick="surprise(this)">Rodyti nuotraukas</button>
+    <button id="hide" onclick="surprise(this)" hidden>Slėpti nuotraukas</button>
+    <button id="suffle" onclick="surprise(this)" hidden>
+      Maišyti nuotraukas
+    </button>
+    <br />
+    <img src="photo/bao.jpg" hidden alt="" />
+    <img src="photo/blake.jpg" hidden alt="" />
+    <img src="photo/boxed.jpg" hidden alt="" />
+    <img src="photo/dave.jpg" hidden alt="" />
+    <img src="photo/lukaz.jpg" hidden alt="" />
+    <img src="photo/quino.jpg" hidden alt="" />
+    <script src="script.js"></script>
+  </body>
+</html>
